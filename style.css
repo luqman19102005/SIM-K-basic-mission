@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  max-width: 1242px;
+  color: #fff;
+}
+
+.banner {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+    url(image/content/background-content.jpg);
+  background-size: cover;
+}
+
+/* navigation section */
+nav {
+  height: 7.5vh;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2vh;
+}
+
+nav p {
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+nav p a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 4%;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0 8%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+section {
+  display: flex;
+  height: 3.5vh;
+  width: 25%;
+  align-items: center;
+  margin-right: 5%;
+  
+}
+
+section div.search {
+  width: 100%;
+  height: 3.5vh;
+  display: flex;
+  margin-left: 35%;
+}
+
+section div input {
+  border-radius: 5px;
+  height: 4vh;
+}
+
+section div input {
+  padding: 5px 5px 5px 10px;
+}
+
+section div.search img {
+  position: relative;
+  left: -13%;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 18.5px;
+  height: 18.5px;
+}
+
+section img {
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding-top: 6vh;
+}
+
+/* content section */
+.content {
+  height:79vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+}
+
+/* introduction section */
+.isi {
+  display: block;
+  width: 35%;
+  height: 60vh;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+.judul {
+  font-size: 66px;
+  font-weight: bold;
+  margin: 8% 0 14% 0;
+  border-radius: 15px;
+}
+
+.deskripsi {
+  font-size: 16px;
+}
+
+.button {
+  display: flex;
+  position: relative;
+  width: 40%;
+  height: 9vh;
+  background-color: #4F6F52;
+  justify-content: center;
+  align-items: center;
+  left: 25%;
+  margin: 12% 6% 6% 6%;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4f6f5295;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+/* login form section */
+.login {
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  width: 80%;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.164);
+  border: 1px solid rgba(255, 255, 255, 0.433);
+}
+
+form {
+  width: 75%;
+  height: 110%;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper h1 {
+  margin: 5.5vh 0 3.25% 0;
+  font-size: 28px;
+  text-align: center;
+}
+
+.input-box {
+  width: 100%;
+  height: 35px;
+  margin: 5vh 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 20px 40px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #fff;
+}
+
+.input-box i {
+  position: relative;
+  left: 86.5%;
+  top: -52%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.remember-forgot label input {
+  width: 14px;
+  height: 14px;
+}
+
+.remember-forgot a {
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  color: #acc09c;
+}
+
+.btn {
+  display: flex;
+  width: 100.5%;
+  height: 35px;
+  background: rgb(255, 255, 255);
+  color: #5f6f52;
+  font-weight: bold;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 20px 40px 20px 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 4vh 0 2vh 0;
+}
+
+.btn:hover {
+  background: rgba(213, 213, 213, 0.85);
+}
+
+.register-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-link p a {
+  text-decoration: none;
+}
+
+.register-link p a:hover {
+  color: #acc09c;
+}
+
+/* footer section */
+footer {
+  margin-bottom: 0;
+  height: 5.5vh;
+  background-color: #4F6F52;
+  
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 5.5vh;
+  margin: 0 5% 0 5%;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin: 0 8px 0 8px;
+  align-items: center;
+  gap: 8px;
+  margin-left: 15%;
+}
+
+.social-media a img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.social-media a img:hover {
+  opacity: 80%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-right: 6.5%;
+}
+
+.copyright i {
+  margin-right: 10px;
+}
+
+/*  
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(image/contentbackground.jpg);
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.banner h2 {
+  text-align: center;
+  padding: 1%;
+  background-color: #fff;
+}
+
+.banner h2 a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 6.5vh;
+  width: 100%;
+  background-color: #FFE53B;
+  box-shadow: 0 0 10px #fef1e2;
+  margin: auto;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 35px;
+  cursor: pointer;
+}
+
+.content {
+  width: 100%;
+  height: 77vh;
+}
+
+footer {
+  width: 100%;
+  height: 7vh;
+  font-size: 15px;
+  background-color: #FFE53B;
+}
+
+.footercontent {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  padding: 0.8%;
+}
+
+footer p {
+  cursor: pointer;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 10px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.socialmedia a:hover {
+  text-decoration: underline;
+} */
