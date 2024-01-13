@@ -46,6 +46,7 @@ nav ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 nav ul li a:hover {
@@ -325,14 +326,3 @@ footer {
 .social-media a img:hover {
   opacity: 80%;
 }
-
-/* @media screen */
-
-/* @media screen and (min-width: 500px) {
-  .banner {
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url(image/content/background-content.jpg);
-    background-size: cover;
-  }
-} */
